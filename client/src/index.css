@@ -30,8 +30,8 @@ body {
     align-items: center;
     min-width: 320px;
     min-height: 100vh;
-    color: white;
-    background-color: #414858;
+    color: #f1d4ed;
+    background-color: #9aa5bf;
 }
 
 h1 {
@@ -72,8 +72,14 @@ button:focus-visible {
 }
 
 .books {
-    display: flex;
-    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #f9f9f9;
+
+    justify-items: center;
+    row-gap: 100px;
+    column-gap: 50px;
+    padding-bottom: 10%;
 }
 h1 {
     text-align: center;
@@ -87,7 +93,7 @@ h1 {
 }
 .books img {
     width: 320px;
-    height: 400px;
+    height: 420px;
 }
 
 .btn {
@@ -101,6 +107,9 @@ h1 {
 .btn button {
     width: 150px;
     padding: 15px;
+
+    background-color: #f1d4ed;
+    color: #545889;
 }
 
 .form {
@@ -119,4 +128,7 @@ h1 {
 
 .form button {
     width: 150px;
+}
+.link {
+    color: #545889;
 }

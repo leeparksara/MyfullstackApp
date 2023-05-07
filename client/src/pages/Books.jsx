@@ -48,7 +48,7 @@ const Books = () => {
                         <button className="delete" onClick={() => handleDelete(book.id)}>
 Delete
                             </button>
-                            <button className="addHome"><Link to="/add">Add new book</Link></button>
+                            <button className="addHome"><Link className="link" to="/add">Add new book</Link></button>
 
 
 
